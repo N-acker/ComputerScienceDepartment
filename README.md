@@ -1,19 +1,41 @@
-# CSD
-This is a digital software for the computer science department in a university.
+# 🏫 Computer Science Department (CSD) Software
 
-By doing this project I learned alot about OOP concepts which include **abstraction**, **encapsualtion**, **inheritance**, **polymorphism**, association, aggregation and composition. The bolded concepts are the 4 main principles of OOP and they are reliant on the other 3 concepts. NOT ALL CONCEPTS AND PRINCIPLES WERE USED IN ORDER TO COMPLETE THE PROJECT BUT ARE A NECESSARY PART OF UNDERSTANDNING OOP. 
+A digital management system designed for a university's Computer Science Department, developed to streamline departmental operations and enhance administrative efficiency.
 
-Inheritance - child classes inherit features from parent classes.
+## 🛠️ Project Overview
 
-Polymorphism - compile time(static) involves method overloading, and runtime(dynamic) involves method overridding; we override the methods with the same signature aka child class methods so that their methods differ in functionality from the parent and we overload methods with the same name but different parameters so that objects of a class can perform a single version of each method but not all. 
+This project serves as a comprehensive software solution for managing various aspects of a university's Computer Science Department. Through its development, key Object-Oriented Programming (OOP) principles were applied and reinforced.
 
-Abstraction - is the process of hiding certain details and revealing only specific information to the user thus reducing complexity and seperating the internal from the external of the object; for example I only need the beans and know what buttons to press to make coffee not all the internal processes of the coffee machine. An abstract class is a class without a constructor (since we don't want to make instances of the class) and it can only be inheritaed from a subclass. An abstract method is a method without a body which must be defined by the subclass (they can only be found in abstract classes).
+## 🎯 Key Features
 
-Encapsulation - is the process of bundling of data, along with the methods that operate on that data, into a single unit. It allows the restriction of direct access to components within an object thus hiding the internals. Encapsualtion can be used by adding things like using the private or protectetd access modifiers, using getters and setters, making immutable classes and creating new individual objects within a list if its one of the parameters of the object. These techniques allow information to be hidden so that people using the programs don't access it. 
+- **Student Information Management**: Efficiently store and retrieve student records, including personal details, academic performance, and enrollment status.
+- **Course Administration**: Manage course offerings, schedules, and instructor assignments.
+- **Faculty Management**: Maintain faculty profiles, track teaching assignments, and facilitate communication between staff and students.
+- **Resource Allocation**: Oversee the allocation of departmental resources such as laboratories, equipment, and study materials.
 
-Association - any logical relationship between classes such as passengers and an airline.
+## 🧑‍💻 Technologies Used
 
-Aggregation - the formation of a particular class as a result of a class being aggregated/built for example books are formed as a result of a library being built; the contained classes(books) are not strongly dependent on the container(library) because the books still exist regardless if the library does. 
+- **Programming Language**: Java
+- **Development Environment**: Eclipse IDE
+- **Version Control**: Git
 
-Composition - the same idea as aggregation in terms of the creation of contained classes as a result of the container being build; in this case the contained classes will be destroyed if the container is destroyed, for example if a house is destroyed then all the basic compoennts such as the windows are destroyed too. 
+## 🏗️ Object-Oriented Programming Concepts Applied
+
+This project provided hands-on experience with several OOP concepts:
+
+- **Abstraction**: Simplifying complex systems by modeling classes appropriate to the problem.
+- **Encapsulation**: Bundling data with methods that operate on that data, restricting direct access to some of the object's components.
+- **Inheritance**: Creating new classes based on existing classes to promote code reusability.
+- **Polymorphism**: Allowing entities to be represented in multiple forms, enabling a single interface to control access to a variety of data types.
+
+Additionally, relationships such as **association**, **aggregation**, and **composition** were explored to define how classes interact within the system.
+
+## 🚀 Getting Started
+
+To set up and run this project locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/N-acker/ComputerScienceDepartment.git
+
 
